@@ -264,50 +264,61 @@ button:disabled{
       <h3>Solution</h3>
 
       <div class="group">
-        <strong>Incident Investigation Tools</strong><br>
-        Root Cause • Fault Tree • Event Tree • 5 Whys
-      </div>
-
-      <div class="group">
         <strong>Personal Protection</strong><br>
-        PPE • Face Shield • Respirator • Chemical Suit
+        Hard hat • Respirator • FR Overalls • Safety Glasses
       </div>
 
       <div class="group">
-        <strong>Layers of Protection / Safeguards</strong><br>
+        <strong>Layers of Protection</strong><br>
         Relief Valve • Interlock • Alarm • Containment
       </div>
 
       <div class="group">
-        <strong>Process Safety Events / Consequences</strong><br>
-        Fire • Explosion • Toxic Release • Overpressure
+        <strong>Process Engineering Packet / Production Checklist</strong><br>
+        P&amp;ID (Piping &amp; Instrumentation Diagram) • Process Flow Diagram (PFD) • Operating Procedures • Material &amp; Energy Balance
+      </div>
+
+      <div class="group">
+        <strong>Incident Investigation Tools</strong><br>
+        Root Cause • Fault Tree • Event Tree • 5 Whys
       </div>
     </div>
 
+    <div class="foot">
+      Tip: This works well as a quick meeting icebreaker or audience engagement activity.
+    </div>
+  </div>
+</div>
+
 <script>
 const TERMS = [
-  "Root Cause", "Fault Tree", "Event Tree", "5 Whys",
-  "PPE", "Face Shield", "Respirator", "Chemical Suit",
+  "Hard hat", "Respirator", "FR Overalls", "Safety Glasses",
   "Relief Valve", "Interlock", "Alarm", "Containment",
-  "Fire", "Explosion", "Toxic Release", "Overpressure"
+  "P&ID (Piping & Instrumentation Diagram)", "Process Flow Diagram (PFD)", "Operating Procedures", "Material & Energy Balance",
+  "Root Cause", "Fault Tree", "Event Tree", "5 Whys"
 ];
 
 const GROUPS_TEMPLATE = [
   {
-    name: "Incident Investigation Tools",
-    items: ["Root Cause", "Fault Tree", "Event Tree", "5 Whys"]
-  },
-  {
     name: "Personal Protection",
-    items: ["PPE", "Face Shield", "Respirator", "Chemical Suit"]
+    items: ["Hard hat", "Respirator", "FR Overalls", "Safety Glasses"]
   },
   {
-    name: "Layers of Protection / Safeguards",
+    name: "Layers of Protection",
     items: ["Relief Valve", "Interlock", "Alarm", "Containment"]
   },
   {
-    name: "Process Safety Events / Consequences",
-    items: ["Fire", "Explosion", "Toxic Release", "Overpressure"]
+    name: "Process Engineering Packet / Production Checklist",
+    items: [
+      "P&ID (Piping & Instrumentation Diagram)",
+      "Process Flow Diagram (PFD)",
+      "Operating Procedures",
+      "Material & Energy Balance"
+    ]
+  },
+  {
+    name: "Incident Investigation Tools",
+    items: ["Root Cause", "Fault Tree", "Event Tree", "5 Whys"]
   }
 ];
 
